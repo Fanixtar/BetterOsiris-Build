@@ -38,7 +38,7 @@ jobs:
         rm -rf ./OsirisAndExtra/Release/*.pdb
         rm -rf ./OsirisAndExtra/Release/*.obj
       
-    - name: Upload Akebi-GC latest artifact
+    - name: Upload latest artifact
       uses: actions/upload-artifact@v3.1.0
       with:
         name: BetterOsiris-release
